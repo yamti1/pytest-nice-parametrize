@@ -12,7 +12,7 @@ def get_description():
 
 
 setuptools.setup(
-    name="nice-parametrize",
+    name="pytest-nice-parametrize",
     version="1.0.0",
     author="Yam Tirosh",
     author_email="yam.tirosh@gmail.com",

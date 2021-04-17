@@ -14,7 +14,7 @@ setuptools.setup(
     author="Yam Tirosh",
     author_email="yam.tirosh@gmail.com",
     description="A small snippet for nicer PyTest's Parametrize",
-    download_url="https://github.com/yamti1/pytest-nice-parametrize/archive/refs/tags/1.0.0.tar.gz",
+    download_url="https://github.com/yamti1/pytest-nice-parametrize/archive/refs/tags/1.0.1.tar.gz",
     long_description=get_description(),
     long_description_content_type="text/markdown",
     py_modules=["nice_parametrize"],

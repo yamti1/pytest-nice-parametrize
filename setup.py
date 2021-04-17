@@ -1,11 +1,6 @@
 import setuptools
 
 
-def get_requirements():
-    with open("requirements.txt", "r") as f:
-        return list(f)
-
-
 def get_description():
     with open("README.md", 'r') as f:
         return f.read()
@@ -13,7 +8,8 @@ def get_description():
 
 setuptools.setup(
     name="pytest-nice-parametrize",
-    version="1.0.0",
+    version="1.0.1",
+    install_requires=["pytest"],
     license='MIT',
     author="Yam Tirosh",
     author_email="yam.tirosh@gmail.com",
@@ -22,7 +18,6 @@ setuptools.setup(
     long_description=get_description(),
     long_description_content_type="text/markdown",
     py_modules=["nice_parametrize"],
-    install_requires=get_requirements(),
     keywords="pytest parametrize ids",
     classifiers=[
         'Development Status :: 5 - Production/Stable',
